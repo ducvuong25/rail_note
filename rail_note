@@ -1,0 +1,31 @@
+##################################################################
+ 
+ Khi chọn một option trong select, sẽ kích hoạt sự kiện onchange ==> gửi id project lên controler, lấy toàn bộ các user tương ứng với với controler đó, trả ngược  trang đó?
+ 
+ ? lam sao de găn sự kien len click?
+ 
+ trong controler ==> formmat.js render:partial
+
+trong file HTML ===> render: partial
+
+
+
+partial --> là một mẩu html ta muốn include vào file html lớn, là file _random
+file js.erb --> là file chứa các đoạn mã javascript để include partial vào
+
+
+https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/ruby-on-rails/lessons/advanced-forms
+https://www.geeksforgeeks.org/ruby-enumerable-collect-function/#:~:text=The%20collect()%20of%20enumerable,return%20nil%20for%20each%20enum.
+e #select_tag ==> tạo ra thẻ select bên ngoài
+
+
+#options_for_select ==> quy định các the option bên trong
+nhân giá trị là một mảng trong đó mỗi phần tử lại là một mảng gồm 2 phần tử
+	+phan tu 1: label sẽ hien thi
+	+phan tu 2: value se duoc gui len server	
+[[label1, value1],[label2, value2]]
+	###############################################################
+
+
+
+	
