@@ -26,6 +26,24 @@ nhân giá trị là một mảng trong đó mỗi phần tử lại là một m
 [[label1, value1],[label2, value2]]
 	###############################################################
 
+1. param với ambersand (&) ở đằng trước ở mục định nghĩa hàm
+		==> ám chỉ rằng tham số này phải là một block.
+
+https://stackoverflow.com/questions/15217092/rails-respond-to-in-the-controller
+https://apidock.com/rails/ActionController/MimeResponds/respond_to
+2.  responsed_to:  
+		format.html ==> nếu client muốn HTML thì trả về html như bình thường
+		format.xml { render :xml => @people.to_xml } ==> Nếu client muốn trả về xml thì sẽ render ra định dạng xml
+		format.js ==> Nếu client muốn trả về js thì request đó một ajax request.
+				- trả về một mẩu js đồng nghĩa với việc thực thi mẩu js đó luôn.
+				Vậy lấy javascript ở đâu để trả về cho client 
+		==>	Căn cứ vào  Request header: Accept mà Rail sẽ biết được client muốn trả về cái gì.
+		
+		
+		
+3. bổ sung link_to bằng hardcode url
 
 
 	
+
+
